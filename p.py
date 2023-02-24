@@ -1,12 +1,12 @@
 #3 task for classes
 
 class Rectangle():
-    def __init__(self,le,wi):
-        self.length = le
-        self.width = wi
+    def __init__(self, l, w):
+        self.length = l
+        self.width  = w
 
-        def rectangle_area(self):
-            return self.length*self.width
-        
-        newRectangle = Rectangle(11 , 12)
-        print(newRectangle.rectangle_area())
+    def rectangle_area(self):
+        return self.length*self.width
+
+newRectangle = Rectangle(5, 7)
+print(newRectangle.rectangle_area())
